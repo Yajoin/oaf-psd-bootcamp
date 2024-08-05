@@ -12,3 +12,6 @@ def is_prime(n: int) -> bool:
             return False
         i += 6
     return True
+
+print(is_prime(3))
+print(is_prime(50))
